@@ -16,24 +16,31 @@
             <key>NSAllowsArbitraryLoads</key>
             <true/>
         </dict>
-        <key>NSMainNibFile</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="NSMainNibFile">
         <string></string>
-        <key>UIRequiresFullScreen</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
         <true/>
-        <key>UIStatusBarHidden</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UIStatusBarHidden">
         <true/>
-        <key>ITSAppUsesNonExemptEncryption</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
         <false/>
-        <key>UISupportedInterfaceOrientations</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
         <array>
             <string>UIInterfaceOrientationPortrait</string>
         </array>
-        <key>UISupportedInterfaceOrientations~ipad</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations~ipad">
         <array>
             <string>UIInterfaceOrientationLandscapeLeft</string>
             <string>UIInterfaceOrientationLandscapeRight</string>
         </array>
-        <key>UIViewControllerBasedStatusBarAppearance</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
         <false/>
       </config-file>
     </platform>
